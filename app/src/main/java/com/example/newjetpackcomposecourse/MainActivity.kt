@@ -51,6 +51,8 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.newjetpackcomposecourse.`2_FundamentalConcepts`.AccessStringResource
+import com.example.newjetpackcomposecourse.`2_FundamentalConcepts`.Greeting
 import com.example.newjetpackcomposecourse.ui.theme.NewJetpackComposeCourseTheme
 
 class MainActivity : ComponentActivity() {
@@ -60,6 +62,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             NewJetpackComposeCourseTheme {
 
+             //   Greeting()
+                AccessStringResource()
 
             }
         }
