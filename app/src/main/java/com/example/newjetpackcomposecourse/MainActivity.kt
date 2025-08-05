@@ -53,6 +53,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.newjetpackcomposecourse.`2_FundamentalConcepts`.AccessStringResource
 import com.example.newjetpackcomposecourse.`2_FundamentalConcepts`.Greeting
+import com.example.newjetpackcomposecourse.`3_CoreComponents`.AnnotatedStringWithListenerSample
+import com.example.newjetpackcomposecourse.`3_CoreComponents`.FilledButtonSample
+import com.example.newjetpackcomposecourse.`3_CoreComponents`.PartiallySelectableText
+import com.example.newjetpackcomposecourse.`3_CoreComponents`.TonalButtonSample
 import com.example.newjetpackcomposecourse.ui.theme.NewJetpackComposeCourseTheme
 
 class MainActivity : ComponentActivity() {
@@ -63,7 +67,11 @@ class MainActivity : ComponentActivity() {
             NewJetpackComposeCourseTheme {
 
              //   Greeting()
-                AccessStringResource()
+                //AccessStringResource()
+               // PartiallySelectableText()
+               // AnnotatedStringWithListenerSample()
+                //FilledButtonSample()
+                TonalButtonSample()
 
             }
         }
