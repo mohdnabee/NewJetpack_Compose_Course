@@ -51,12 +51,15 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.newjetpackcomposecourse.`11_Menu`.MenuExamples
 import com.example.newjetpackcomposecourse.`2_FundamentalConcepts`.AccessStringResource
 import com.example.newjetpackcomposecourse.`2_FundamentalConcepts`.Greeting
 import com.example.newjetpackcomposecourse.`3_CoreComponents`.AnnotatedStringWithListenerSample
 import com.example.newjetpackcomposecourse.`3_CoreComponents`.FilledButtonSample
 import com.example.newjetpackcomposecourse.`3_CoreComponents`.PartiallySelectableText
 import com.example.newjetpackcomposecourse.`3_CoreComponents`.TonalButtonSample
+import com.example.newjetpackcomposecourse.`5_BottomSheet`.PartialBottomSheet
+import com.example.newjetpackcomposecourse.`7_CheckBox`.CheckBoxExample
 import com.example.newjetpackcomposecourse.ui.theme.NewJetpackComposeCourseTheme
 
 class MainActivity : ComponentActivity() {
@@ -71,8 +74,11 @@ class MainActivity : ComponentActivity() {
                // PartiallySelectableText()
                // AnnotatedStringWithListenerSample()
                 //FilledButtonSample()
-                TonalButtonSample()
+                //TonalButtonSample()
+//                PartialBottomSheet()
 
+                //CheckBoxExample()
+                MenuExamples()
             }
         }
     }

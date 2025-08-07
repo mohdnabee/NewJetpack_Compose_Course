@@ -78,11 +78,11 @@ fun LazyRowExample(){
 }
 
 
-@Preview(showSystemUi = true)
-@Composable
-fun ExamplePreview() {
-    LazyRowExample()
-}
+//@Preview(showSystemUi = true)
+//@Composable
+//fun ExamplePreview() {
+//    LazyRowExample()
+//}
 
 
 //
