@@ -35,8 +35,10 @@ fun MenuExamples() {
         mutableStateOf(false)
     }
 
-    Box(modifier = Modifier.fillMaxSize(),
-        contentAlignment = Alignment.TopEnd) {
+    Box(
+        modifier = Modifier.fillMaxSize(),
+        contentAlignment = Alignment.TopEnd
+    ) {
 
         Box(
             modifier = Modifier
@@ -114,7 +116,7 @@ fun MenuExamples() {
 }
 
 
-@Preview(showSystemUi =  true)
+@Preview(showSystemUi = true)
 @Composable
 fun MenuPreview() {
     MenuExamples()
