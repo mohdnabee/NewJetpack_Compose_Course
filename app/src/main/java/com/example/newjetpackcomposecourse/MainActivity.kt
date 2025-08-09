@@ -52,6 +52,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.newjetpackcomposecourse.`11_Menu`.MenuExamples
+import com.example.newjetpackcomposecourse.`13_NavigationDrawer`.DetailedDrawerExample
 import com.example.newjetpackcomposecourse.`2_FundamentalConcepts`.AccessStringResource
 import com.example.newjetpackcomposecourse.`2_FundamentalConcepts`.Greeting
 import com.example.newjetpackcomposecourse.`3_CoreComponents`.AnnotatedStringWithListenerSample
@@ -78,7 +79,8 @@ class MainActivity : ComponentActivity() {
 //                PartialBottomSheet()
 
                 //CheckBoxExample()
-                MenuExamples()
+               // MenuExamples()
+                DetailedDrawerExample()
             }
         }
     }
