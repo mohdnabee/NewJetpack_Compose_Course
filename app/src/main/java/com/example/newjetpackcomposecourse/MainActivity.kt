@@ -28,6 +28,7 @@ import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CardElevation
+import androidx.compose.material3.DatePicker
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -53,6 +54,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.newjetpackcomposecourse.`11_Menu`.MenuExamples
 import com.example.newjetpackcomposecourse.`13_NavigationDrawer`.DetailedDrawerExample
+import com.example.newjetpackcomposecourse.`22_DatePicker`.DatePickerEx
 import com.example.newjetpackcomposecourse.`2_FundamentalConcepts`.AccessStringResource
 import com.example.newjetpackcomposecourse.`2_FundamentalConcepts`.Greeting
 import com.example.newjetpackcomposecourse.`3_CoreComponents`.AnnotatedStringWithListenerSample
@@ -70,17 +72,18 @@ class MainActivity : ComponentActivity() {
         setContent {
             NewJetpackComposeCourseTheme {
 
-             //   Greeting()
+                //   Greeting()
                 //AccessStringResource()
-               // PartiallySelectableText()
-               // AnnotatedStringWithListenerSample()
+                // PartiallySelectableText()
+                // AnnotatedStringWithListenerSample()
                 //FilledButtonSample()
                 //TonalButtonSample()
-//                PartialBottomSheet()
+                // PartialBottomSheet()
 
                 //CheckBoxExample()
-               // MenuExamples()
-                DetailedDrawerExample()
+                // MenuExamples()
+                //DetailedDrawerExample()
+                DatePickerEx()
             }
         }
     }
