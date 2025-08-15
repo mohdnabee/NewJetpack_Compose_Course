@@ -2,6 +2,8 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+
+    kotlin("plugin.serialization") version "2.0.0"
 }
 
 android {
@@ -57,9 +59,19 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    //  for constraint layout
     implementation("androidx.constraintlayout:constraintlayout-compose:1.0.1")
 
     //  icons add
     implementation("androidx.compose.material:material-icons-extended:1.7.8")
+
+    //  Navigation
+    implementation("androidx.navigation:navigation-compose:2.8.0-beta06")
+
+    //  Serialization
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
+
+    //  custom  bottom  nev  bar
+    implementation("com.canopas.compose-animated-navigationbar:bottombar:1.0.1")
 
 }
