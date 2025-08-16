@@ -56,6 +56,7 @@ import com.example.newjetpackcomposecourse.`11_Menu`.MenuExamples
 import com.example.newjetpackcomposecourse.`13_NavigationDrawer`.DetailedDrawerExample
 import com.example.newjetpackcomposecourse.`22_DatePicker`.DatePickerEx
 import com.example.newjetpackcomposecourse.`23_TimePiker`.TimePickerEx
+import com.example.newjetpackcomposecourse.`26_Navigation`.App
 import com.example.newjetpackcomposecourse.`2_FundamentalConcepts`.AccessStringResource
 import com.example.newjetpackcomposecourse.`2_FundamentalConcepts`.Greeting
 import com.example.newjetpackcomposecourse.`3_CoreComponents`.AnnotatedStringWithListenerSample
@@ -85,7 +86,12 @@ class MainActivity : ComponentActivity() {
                 // MenuExamples()
                 //DetailedDrawerExample()
                // DatePickerEx()
-                TimePickerEx()
+               //  TimePickerEx()
+
+                App()
+
+
+
             }
         }
     }

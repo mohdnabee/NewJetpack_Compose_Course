@@ -27,7 +27,7 @@ fun LazyColumnExample(){
         Arrangement.Center,
 
     ) {
-        Text("LazyColumn (prepared for the List")
+        Text("LazyColumn (prepared for the List)")
 
         LazyColumn(
             modifier = Modifier.fillMaxWidth().
@@ -78,11 +78,10 @@ fun LazyRowExample(){
 }
 
 
-//@Preview(showSystemUi = true)
-//@Composable
-//fun ExamplePreview() {
-//    LazyRowExample()
-//}
+@Preview(showSystemUi = true)
+@Composable
+fun ExamplePreview() {
+    LazyColumnExample()
+}
 
 
-//

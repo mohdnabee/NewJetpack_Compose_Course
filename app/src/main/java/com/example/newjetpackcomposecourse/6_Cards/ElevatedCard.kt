@@ -13,10 +13,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
 import com.example.newjetpackcomposecourse.`4_LayoutComposable`.ModifierExample
 
 @Composable
-fun ElevatedCard() {
+fun ElevatedCard(navController: NavController) {
 
     Box(
         modifier = Modifier.fillMaxSize(),
@@ -42,7 +43,7 @@ fun ElevatedCard() {
 @Preview(showSystemUi = true)
 @Composable
 fun ElevatedCardPreview() {
-    ElevatedCard()
+   // ElevatedCard()
 
 
 }
